@@ -1,24 +1,26 @@
+import { title } from "process";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Tech Stack", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I embrace new challenges with sincerity, unwavering dedication, and a sense of fun.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.png",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm versatile in utilizing diverse technologies",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,9 +30,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    title: "Area Of Interest",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-3",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a ML based F1 race strategy app",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,36 +74,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "PrediCure",
+    des: "Predicure goal is to revolutionize chronic disease prediction by harnessing the power of artificial intelligence (AI) and machine learning algorithms along with user friendly interaction.",
+    img: "/p1.png",
+    iconLists: ["/html.svg","/css.svg","/js.svg","/bs.svg","/python.svg"],
+    link: "",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Nexia",
+    des: "Nexia is a fullstack chatbot project built using Gemini API for responses and ReactJS for the frontend. The chatbot is designed to handle technical questions related to coding.",
+    img: "/p2.png",
+    iconLists: ["/re.svg", "/tail.svg","/js.svg","/api.svg"],
+    link: "https://nexia-tech-chatbot.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "WeatherAppX",
+    des: "WeatherAppX is a user-friendly web application that provides up-to-date weather forecasts for any location worldwide. Powered by HTML, CSS, and Javascript, this intuitive tool allows users to enter a city or location and instantly retrieve comprehensive weather information.",
+    img: "/p3.png",
+    iconLists: ["/html.svg","/css.svg","/js.svg","/api.svg"],
+    link: "https://forecast-weather-lakshaysharma10.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "/ui.apple.com",
+  // },
 ];
 
 export const testimonials = [
@@ -205,13 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/LakshaySharma10",
+    title: "GitHub"
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/lakshay-sharma-242907259/",
+    title: "LinkedIn"
   },
 ];
+
+
+

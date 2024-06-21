@@ -6,18 +6,39 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
+      <div className="flex justify-center items-center h-full">
+  <div className="skills max-w-screen-md mx-auto">
+    <h1 className="heading mb-16"> 
+      Tech <span className="text-purple">Stack</span>
+    </h1>
+    <div className="logos">
+      <ul className="grid grid-cols-4 gap-4 md:grid-cols-6 md:gap-8">
+        <li><img src="https://skillicons.dev/icons?i=html" alt="HTML skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=css" alt="CSS skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=js" alt="JavaScript skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=react" alt="React skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=python" alt="Python skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=java" alt="Java skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=c" alt="C skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=cpp" alt="C++ skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB skill icon" className="h-20 w-17"/></li>
+        <li><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase skill icon" className="h-20 w-17"/></li>
+      </ul>
+    </div>
+  </div>
+</div>
+      <h1 className="heading mt-48">
+        My <span className="text-purple">Journey</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Origin"
+          icon={<AceternityIcon order="Early Beginnings" />}
+          des="My first significant encounter with development technologies occurred in 2020 while working on a computer science project for my school on the topic of a school management system. Initially, I utilized MySQL as the database management system alongside Python shell, which I eventually transitioned to HTML and CSS."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +47,10 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Current endeavors"
+          icon={<AceternityIcon order="Present Focus" />}
+          des="
+As a student pursuing a Bachelor of Technology at Vivekananda Institute of Technologies, specializing in Artificial Intelligence and Machine Learning, I am deeply engrossed in exploring the vast domain of AI. My aim is to leverage this cutting-edge technology to tackle real-world challenges and seamlessly integrate it into software development, paving the way for innovative solutions and transformative advancements."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +68,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Future Ambitions"
+          icon={<AceternityIcon order="Aspirations" />}
+          des="I am wholeheartedly dedicated to mastering my craft, delving into cutting-edge technologies such as Next.js, Express, and Node.js. Additionally, I aspire to conquer the realm of cloud computing with platforms like Azure and AWS. My ultimate goal is to engineer impactful solutions across diverse domains, pushing the boundaries of innovation and excellence."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -61,6 +79,14 @@ const Approach = () => {
           />
         </Card>
       </div>
+
+
+
+
+
+
+
+      
     </section>
   );
 };
