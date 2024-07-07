@@ -90,11 +90,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "WeatherAppX",
-    des: "WeatherAppX is a user-friendly web application that provides up-to-date weather forecasts for any location worldwide. Powered by HTML, CSS, and Javascript, this intuitive tool allows users to enter a city or location and instantly retrieve comprehensive weather information.",
-    img: "/p3.png",
-    iconLists: ["/html.svg","/css.svg","/js.svg","/api.svg"],
-    link: "https://forecast-weather-lakshaysharma10.vercel.app/",
+    title: "Grind&Grow",
+    des: "Grind & Grow is a gym landing page designed to attract and engage potential gym members. The landing page highlights the gym's features, services, and membership plans, providing a seamless and interactive user experience.",
+    img: "/p3.jpg",
+    iconLists: ["/html.svg","/css.svg","/js.svg","/tail.svg","/re.svg"],
+    link: "https://grind-grow.vercel.app/",
   },
   // {
   //   id: 4,
